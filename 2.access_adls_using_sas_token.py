@@ -4,5 +4,5 @@ spark.conf.set("fs.azure.sas.token.provider.type.formula1dl.dfs.core.windows.net
 spark.conf.set("fs.azure.sas.fixed.token.formula1dl.dfs.core.windows.net", "")
 display(dbutils.fs.ls("abfss://demo@formula1dl.dfs.core.windows.net"))
 
-display(spark.read.csv("abfss://demo@formula1dl.dfs.core.windows.net/circuits.csv"))
+display(spark.read.csv("abfss://demo@formula1dl.dfs.core.windows.net/circuits.csv")
 
